@@ -145,7 +145,6 @@ const PaymentType = (props) => {
               </i>
 
               <p>이용 금액을 이용 완료 후 결제.</p>
-              <b className="notice">※ 카카오페이는 후결제가 불가능합니다.</b>
               <p>
                 이용 금액의 20%인
                 <Image src="/svg/won.svg" width="10" height="10" />
