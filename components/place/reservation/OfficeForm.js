@@ -42,7 +42,7 @@ const OfficeForm = () => {
   const style = {
     position: 'absolute',
     top: '55%',
-    left: '0%',
+    left: '50%',
     height: '75%',
     transform: 'translate(-50%, -50%)',
     width: '390px',
