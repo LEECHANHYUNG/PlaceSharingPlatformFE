@@ -36,6 +36,7 @@ const HomePage = (props) => {
           name="description"
           content="공간 대여 플랫폼, 데스크, 미팅룸, 오피스"
         />
+      <meta name="google-site-verification" content="eKUmmhadkUt-1bAXMJDDHxYBPWEAmfWFdcmdE0" />
       </Head>
       <KakaoMap setMapHandler={setMap} />
       {selectedPlaceId ? (
