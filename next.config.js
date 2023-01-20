@@ -22,17 +22,21 @@ module.exports = async (phase) => {
         ];
       },
       images: {
-        domains: ['palce-sharing-platform.s3.ap-northeast-2.amazonaws.com'],
+        domains: [
+          'officesharingplatform-image-server.s3.ap-northeast-2.amazonaws.com',
+        ],
       },
       env: {
-        baseURL: 'http://localhost:8080/',
+        baseURL:
+          'https://port-0-place-sharing-platform-883524lbtbkgal.gksl2.cloudtype.app/',
         signIn: '/auth/signin',
-        signUp: 'http://localhost:8080/auth/signup',
+        signUp: '/auth/signup',
         myPage: '/mypage',
         refresh: '/auth/refresh',
         NEXTAUTH_SECRET: 'mysecretofnextjsnextauth',
-        main: 'http://localhost:8080/main',
-        mainSearch: 'http://localhost:8080/main/search',
+        main: 'https://port-0-place-sharing-platform-883524lbtbkgal.gksl2.cloudtype.app/main',
+        mainSearch:
+          'https://port-0-place-sharing-platform-883524lbtbkgal.gksl2.cloudtype.app/main/search',
       },
     };
   }
@@ -48,7 +52,9 @@ module.exports = async (phase) => {
         ];
       },
       images: {
-        domains: ['palce-sharing-platform.s3.ap-northeast-2.amazonaws.com'],
+        domains: [
+          'officesharingplatform-image-server.s3.ap-northeast-2.amazonaws.com',
+        ],
       },
       env: {
         baseURL:
