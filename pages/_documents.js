@@ -20,6 +20,7 @@ class MyDocument extends Document {
       <Html>
         <Head />
         <body>
+          <meta name="google-site-verification" content="LbYlLJNdIjKWYoX24CJHoSadmZa2eb49J-TMLJnyAUg" />
           <Main />
           <NextScript />
         </body>
