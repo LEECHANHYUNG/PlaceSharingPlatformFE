@@ -58,7 +58,7 @@ module.exports = async (phase) => {
       },
       env: {
         baseURL:
-          'https://131.186.27.93:18080/',
+          'http://131.186.27.93:18080/',
         signIn: '/auth/signin',
         signUp: '/auth/signup',
         myPage: '/mypage',
