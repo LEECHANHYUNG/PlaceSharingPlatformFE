@@ -64,9 +64,9 @@ module.exports = async (phase) => {
         myPage: '/mypage',
         refresh: '/auth/refresh',
         NEXTAUTH_SECRET: 'mysecretofnextjsnextauth',
-        main: 'https://port-0-place-sharing-platform-883524lbtbkgal.gksl2.cloudtype.app/main',
+        main: 'http://https://131.186.27.93:18080//main',
         mainSearch:
-          'https://port-0-place-sharing-platform-883524lbtbkgal.gksl2.cloudtype.app/main/search',
+          'http://https://131.186.27.93:18080//main/search',
       },
     };
   }
