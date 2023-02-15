@@ -28,7 +28,7 @@ module.exports = async (phase) => {
       },
       env: {
         baseURL:
-          'https://port-0-place-sharing-platform-883524lbtbkgal.gksl2.cloudtype.app/',
+          'https://131.186.27.93:18080/',
         signIn: '/auth/signin',
         signUp: '/auth/signup',
         myPage: '/mypage',
@@ -58,7 +58,7 @@ module.exports = async (phase) => {
       },
       env: {
         baseURL:
-          'https://port-0-place-sharing-platform-883524lbtbkgal.gksl2.cloudtype.app/',
+          'https://131.186.27.93:18080/',
         signIn: '/auth/signin',
         signUp: '/auth/signup',
         myPage: '/mypage',
